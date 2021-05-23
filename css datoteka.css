@@ -1,0 +1,40 @@
+
+ul[class*= "navigacija"] {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5F0F40;
+  color: #E5D4C0;
+}
+li[class*= "podstranica"] {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+}
+
+a:link, a:visited {
+  background-color: #5F0F40;
+  color: #FAC9B8;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+
+a:hover, a:active {
+  background-color: #9F196B;
+}
+
+
+
+
+body {
+background-color: #F3EBE2;
+margin-left: 20px;
+margin-right: 30px;
+}
+
